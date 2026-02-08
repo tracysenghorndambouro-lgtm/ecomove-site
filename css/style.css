@@ -169,4 +169,48 @@ nav a:hover {
   margin-bottom: 15px;
   color: #00ff99;
 }
+/* CONTACTS PAGE */
+.contacts {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.contacts h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contacts p {
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.contact-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.contact-box {
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #222;
+}
+
+.contact-box h2 {
+  color: #00ff99;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact-note {
+  font-size: 14px;
+  color: #888;
+}
+
 
