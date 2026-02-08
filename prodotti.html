@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>EcoMove | Prodotti & Servizi</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/cart.js"></script>
+</head>
+
+<body>
+
+  <!-- HEADER (identico alla Home) -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" alt="EcoMove Logo">
+      <span>EcoMove</span>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="prodotti.html">Prodotti & Servizi</a>
+      <a href="chi-siamo.html">Chi siamo</a>
+      <a href="contatti.html">Contatti</a>
+    </nav>
+
+    <div class="cart">
+      🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <!-- CONTENUTO -->
+  <section class="products">
+    <h1>Prodotti & Servizi</h1>
+
+    <div class="product-grid">
+
+      <div class="product-card">
+        <h2>Noleggio Monopattino</h2>
+        <p>Utilizzo a consumo per brevi spostamenti urbani.</p>
+        <p class="price">€0,20 / minuto</p>
+        <button onclick="addToCart()">Aggiungi al carrello</button>
+      </div>
+
+      <div class="product-card">
+        <h2>Abbonamento Mensile</h2>
+        <p>Utilizzo illimitato dei monopattini EcoMove.</p>
+        <p class="price">€25 / mese</p>
+        <button onclick="addToCart()">Aggiungi al carrello</button>
+      </div>
+
+      <div class="product-card">
+        <h2>Pacchetto Studenti</h2>
+        <p>Tariffa scontata per studenti.</p>
+        <p class="price">€15 / mese</p>
+        <button onclick="addToCart()">Aggiungi al carrello</button>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
